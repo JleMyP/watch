@@ -15,11 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ds1307.ino" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="__vm\.ds1307.vsarduino.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="__vm\.watch.vsarduino.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="watch.ino" />
   </ItemGroup>
 </Project>
